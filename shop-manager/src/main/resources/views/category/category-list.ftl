@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <#include "../../head.ftl">
+    <#include '../head.ftl'>
     <script type="text/javascript">
     function delfunc(obj){
     	layer.confirm('确认删除？', {
@@ -114,7 +114,7 @@
 					            	<span class="warning">温馨提示：顶级分类（一级大类）设为推荐时才会在首页楼层中显示</span>
 					            </div>
 					            <div class="col-md-2">
-					            <a href="商品分类-新增.html" class="btn btn-primary pull-right"><i class="fa fa-plus"></i>新增分类</a>
+					            <a href="${ctx}/goods/category/add" class="btn btn-primary pull-right"><i class="fa fa-plus"></i>新增分类</a>
 				            	</div>
 				            </div>
 				      	</div>
